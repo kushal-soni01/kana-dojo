@@ -81,7 +81,7 @@ export function getTranslateUsageConfig(): TranslateUsageConfig {
     ),
     globalMonthlyCharLimit: readPositiveIntEnv(
       'TRANSLATE_GLOBAL_MONTHLY_CHAR_LIMIT',
-      450_000,
+      3_000_000,
     ),
     verificationDailyCharThreshold: readPositiveIntEnv(
       'TRANSLATE_VERIFICATION_DAILY_CHAR_THRESHOLD',
